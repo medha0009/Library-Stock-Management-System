@@ -1,0 +1,174 @@
+
+body 
+{
+  background: #dedede;
+  font-family: arial;
+  margin:0;
+  padding: 0;
+
+}
+
+header
+{
+    height: 80px;
+    width: 1468px;
+    background-color: black;
+    padding: 10px;
+}
+
+.dropdown
+{
+    margin: 0 auto;
+
+}
+nav{
+    
+    height: 60px;
+    background: black;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+.logo{
+    padding: 5px 0 0 80px;
+    width: 150px;
+    height: auto;
+
+}
+.img
+{
+    height: 650px;
+    margin-top: 0px;
+    background-image: url("Website.png");
+    background-size: cover;
+}
+nav ul{
+    margin:0;
+    padding:0;
+    float: right;
+    margin-right: 30px;
+    
+}
+nav ul li{
+    background: black;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+nav ul li a:hover
+{
+    background: #243342;
+}
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+nav ul li:hover > ul
+{
+    display: block;
+}
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+main
+{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+section h3
+{
+  font-size: 35px;
+  font-weight: 200px;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 2px black;
+
+}
+section h1
+{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+section p
+{
+    font-size: 25px;
+    color: #eee;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+section a
+{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+section .btnone{
+
+    background: #fff;
+    color: #000;
+}
+.btnone:hover{
+
+    background: #00b894;
+    color: #000;
+
+}
+.btntwo:hover{
+
+    background: #00b894;
+    color: #000;
+
+}
+.btn3:hover{
+
+    background: #00b894;
+    color: #000;
+
+}
+
+
+section .btntwo{
+
+    background: #fff;
+    color: #000;
+}
+section .btn3{
+
+    background: #fff;
+    color: #000;
+}
+.change_content:after
+{
+    content:'';
+    animation: changetext 10s infinite linear;
+    color: #00b894;  
+}
+@keyframes changetext{
+    0%{content:" search";}
+    20%{content: " Insert";}
+    35%{content: " Update";}
+}

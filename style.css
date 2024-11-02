@@ -1,0 +1,399 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*-------------------------------------------main code INDEX-----------------------------------*/
+.wrapper
+{
+    height: 700px;
+    width: 1400px;
+    /*background-color: red;*/
+}
+header
+{
+    height: 100px;
+    width: 1530px;
+    background-color: black;
+    padding: 10px;
+}
+section
+{
+
+    height: 600px;
+    width: 1530px;
+    background-color: grey;
+}
+
+footer
+{
+    height: 100px;
+    width: 1530px;
+    background-color: black;
+}
+
+.logo
+{
+    float: left;
+    padding-left: 50px;
+   
+    padding-bottom: 100px;
+    background-size: 40px;
+
+}
+.logo img{
+     padding-left: 10px;
+     padding-bottom: 20px;
+      height: 80px;
+ width: 200px;
+     
+
+}
+body{
+    background-color: #dedede;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown
+{
+    margin: 0 auto;
+
+}
+nav{
+    height: 60px;
+    background: #090a0a;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+nav ul{
+    margin:0;
+    padding:0;
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    background:  #090a0a;
+    position: relative;
+    list-style: none;
+    font-size: 13px;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    background: #111315;
+
+}
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+nav ul li:hover > ul
+{
+    display: block;
+}
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+section{
+    margin-top: 0px;
+    background-image: url("images/library.jpg");
+}
+.container{
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+position: absolute;
+}
+.upload-box{
+    font-size: 16px;
+    background: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+    width: 350px;
+    outline: none;
+}
+
+::-webkit-file-upload-button
+{
+    color: white;
+    background: #206a5d;
+    padding: 20px
+    border: none;
+    border-radius: 50px;
+    box-shadow: 1px 0 1px 1px #6b4559;
+    outline: none;
+}
+::-webkit-file-upload-button:hover
+
+{
+    background: #438a5e;
+}
+.box
+{
+    height: 100px;
+    width: 450px;
+    background-color:#030002;
+    margin: 100px auto;
+    opacity: .7;
+    color: white;
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+/*--------------------login--------------------*/
+.log_img
+{
+    height: 650px;
+    margin-top: 0px;
+    background-image: url("images/me.jpg");
+}
+.box1
+{ position: relative;
+    top: 10px;
+    height:450px ;
+    width:500px ;
+    background-color: black;
+    margin:70px auto ;
+opacity: .7;
+color: white;
+padding: 10px;
+margin-top:10px;
+}
+.login
+{
+    margin:  auto  50px;
+    color: black;
+}
+input
+{
+    height: 7px;
+    width: 200px;
+}
+/*-----------------registration------------*/
+.reg_img
+{
+    height: 650px;
+    wmargin-top: 0px;
+    background-image: url("images/re.jpg");
+}
+.box2
+{
+    height:600px ;
+    width:400px ;
+    background-color:black;
+    margin:80px auto ;
+opacity:.6;
+color: white;
+padding: 10px;
+}
+/*----------------------------------------about us------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ddd;
+
+}
+.container{
+    width:80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+
+}
+.content-section{
+    float: left;
+    width: 55%
+}
+.image-section{
+    float: right;
+    width:40%;
+}
+.image-section img{
+    width: 100%;
+    height:auto;
+
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 40px;    
+}
+
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+.content-section .content .button{
+    margin-top: 30px;
+
+}
+.content-section .content .button a{
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+
+}
+.content-section .content .button a:hover{
+    background-color: #a52a2a;
+    color: #fff;    
+}
+.content-section .social{
+    margin: 40px 40px;
+}
+.content-section .social i{
+    color: #a52a2a;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.content-section .social i:hover{
+    color: #3d3d3d; 
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 80%;
+        display: block;
+        margin:auto;
+        padding-top: 50px;
+
+    }
+    .content-section{
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+    }
+    .image-section{
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.menu
+{
+    display: none ;
+}
+---------------------------------------------------------------
++
